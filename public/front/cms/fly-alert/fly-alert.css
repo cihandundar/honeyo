@@ -1,0 +1,91 @@
+.cms_fly-alert {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    background-color: rgba(0,0,0,.4);
+    z-index: 1060;
+}
+ 
+.cms_fly-alert .content {
+    padding: 20px;
+    background: rgb(255, 255, 255);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 500px;
+    border-radius: 5px;
+    margin: auto;
+}
+ 
+.cms_fly-alert .icon {
+    width: 80px;
+    height: 80px;
+    border: 4px solid;
+    border-radius: 50%;
+    margin: 20px 0 30px;
+    box-sizing: content-box;
+    cursor: default;
+    font-size: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+ 
+.cms_fly-alert.success .icon{
+    border-color: #a5dc86;
+    color: #a5dc86;
+}
+.cms_fly-alert.danger .icon{
+    border-color: #f27474;
+    color: #f27474;
+}
+.cms_fly-alert .icon svg{
+    overflow: visible;
+    height: 60px;
+}
+ 
+.cms_fly-alert .desc {
+    color: #595959;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+    margin: 0 0 .4em;
+    word-wrap: break-word;
+}
+ 
+.cms_fly-alert .close-btn {
+    border-radius: 3px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 15px 5px 0;
+    padding: 10px 32px;
+    background-color: rgb(48, 133, 214);
+}

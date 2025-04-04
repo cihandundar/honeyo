@@ -1,0 +1,58 @@
+.toc-wrapper {
+    padding: 20px;
+    margin-bottom: 36px;
+    border: solid 1px #eee;
+}
+
+.toc-wrapper .toc-title {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.toc-wrapper ol {
+    padding: 0;
+    list-style: none;
+    counter-reset: item;
+    margin-top: 10px;
+}
+
+.toc-wrapper a{
+    color: #000;
+}
+
+.toc-wrapper a::before {
+    content: counters(item, ".") ". ";
+    margin-right: 6px;
+    font-weight: 600;
+    counter-increment: item 1;
+    color: #000;
+
+}
+
+
+.toc-header-wrapper.js-accordion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.toc-header-wrapper.js-accordion button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.toc-wrapper .toc-title {
+    color: #222;
+    font-size: 22px;
+}
+
+.toc-wrapper {
+    margin-top: 30px;
+}
+
+.toc-wrapper ol ol {
+    padding-left: 20px;
+    margin-top: 0;
+}
