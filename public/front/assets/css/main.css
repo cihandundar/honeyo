@@ -15,3 +15,65 @@
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
 }
+
+body {
+    background-color: var(--grey);
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+a {
+    text-decoration: none !important;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.desktop-header {
+    background-color: var(--dark-grey);
+    padding: 10px 0;
+}
+
+.desktop-header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.desktop-header nav ul li a {
+    color: black;
+    font-weight: 900;
+}
+
+.icon {
+    position: relative;
+}
+
+.number {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    background-color: var(--primary);
+    color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

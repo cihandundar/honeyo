@@ -6,7 +6,7 @@ return [
             'text' => 'Anasayfa',
             'url' => '/',
             'new_tab' => false,
-            'custom_data' => '<i class="fas fa-home"></i>',
+            'custom_data' => '',
         ],
         [
             'text' => 'Hakkımızda',
