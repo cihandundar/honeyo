@@ -17,7 +17,7 @@
 }
 
 body {
-    background-color: var(--grey);
+    background-color: var(--grey) !important;
 }
 
 .align-center {
@@ -56,7 +56,7 @@ ul {
 
 .desktop-header nav ul li a {
     color: black;
-    font-weight: 900;
+    font-weight: 600;
 }
 
 .icon {
@@ -76,4 +76,93 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* HERO START */
+
+.hero {
+    position: relative;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 150px 0;
+    position: relative;
+}
+
+.hero-container .title {
+    font-size: 175px;
+    font-weight: 800;
+    color: var(--dark);
+    position: relative;
+}
+
+.left-bee {
+    position: absolute;
+    top: 100px;
+    left: 0;
+}
+
+.center-honey {
+    position: absolute;
+    left: 42.5%;
+    top: 0;
+    height: 700px;
+}
+
+.right-bee {
+    position: absolute;
+    top: 40px;
+    right: 0;
+}
+
+.dashed {
+    position: absolute;
+    bottom: -120px;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.left-bottom-bee {
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+}
+
+.right-bottom-bee {
+    position: absolute;
+    bottom: 22%;
+    right: 10%;
+}
+
+.left-flower {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.right-flower {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+@keyframes float-up-down {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+}
+
+.left-bee,
+.right-bee,
+.left-bottom-bee,
+.right-bottom-bee {
+    animation: float-up-down 2s ease-in-out infinite;
 }

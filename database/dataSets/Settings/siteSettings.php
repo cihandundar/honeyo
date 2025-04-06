@@ -30,6 +30,16 @@ return [
     '404-seo-aciklama' => '404 meta description buraya geliyor.',
     'arama-seo-baslik' => 'Arama | Click to Peak',
     'arama-seo-aciklama' => 'Arama meta description buraya geliyor.',
+    'hero-orta-ust-baslik' => 'HONEY',
+    'hero-orta-alt-baslik' => 'BEES',
+    'hero-sol-ust-ari' => '/front/assets/images/sol-ari.png',
+    'hero-orta-gorsel' => '/front/assets/images/hero-gorsel.png',
+    'hero-sag-ust-ari' => '/front/assets/images/sag-ari.png',
+    'hero-cizgili-gorsel' => '/front/assets/images/cizgi.png',
+    'hero-sol-alt-ari' => '/front/assets/images/sol-alt-ari.png',
+    'hero-sag-alt-ari' => '/front/assets/images/sag-alt-ari.png',
+    'hero-sag-alt-cicek' => '/front/assets/images/sag-cicek.png',
+    'hero-sol-alt-cicek' => '/front/assets/images/sol-cicek.png',
 ];
 
 ?>
