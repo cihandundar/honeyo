@@ -8,5 +8,5 @@
 @endpush
 
 @section('content')
-    @include('front.partials.hero')
+    @include('front.partials.sections.hero')
 @endsection
