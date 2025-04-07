@@ -62,6 +62,39 @@ ul {
     gap: 30px;
 }
 
+.desktop-header nav ul li {
+    position: relative;
+}
+
+.desktop-header nav ul li::before {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    right: 0;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: all 0.3s ease;
+}
+.desktop-header nav ul li::after {
+    content: "";
+    position: absolute;
+    top: -3px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: all 0.3s ease;
+}
+
+.desktop-header nav ul li:hover::before {
+    width: 100%;
+}
+
+.desktop-header nav ul li:hover::after {
+    width: 100%;
+}
+
 .desktop-header nav ul li a {
     color: black;
     font-weight: 600;
