@@ -3,20 +3,20 @@
 return [
     'Ana Menü' => [
         [
-            'text' => 'Anasayfa',
+            'text' => 'Home',
             'url' => '/',
             'new_tab' => false,
             'custom_data' => '',
         ],
         [
-            'text' => 'Hakkımızda',
-            'url' => '/hakkimizda',
+            'text' => 'About',
+            'url' => '/about',
             'new_tab' => false,
             'custom_data' => '',
         ],
         [
-            'text' => 'Hizmetlerimiz',
-            'url' => '/hizmetlerimiz',
+            'text' => 'Services',
+            'url' => '/services',
             'new_tab' => false,
             'custom_data' => '',
         ],
@@ -27,8 +27,20 @@ return [
             'custom_data' => '',
         ],
         [
-            'text' => 'İletişim',
-            'url' => '/iletisim',
+            'text' => 'Contact',
+            'url' => '/contact',
+            'new_tab' => false,
+            'custom_data' => '',
+        ],
+        [
+            'text' => 'Team',
+            'url' => '/team',
+            'new_tab' => false,
+            'custom_data' => '',
+        ],
+        [
+            'text' => 'Shop',
+            'url' => '/shop',
             'new_tab' => false,
             'custom_data' => '',
         ],

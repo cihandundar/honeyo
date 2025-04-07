@@ -21,5 +21,26 @@
             </div>
         </div>
     </div>
-    <div class="mobile-header"></div>
+    <div class="mobile-header">
+        <div class="mobile-header-top">
+            <a class="logo" href="{{ getHomeUrl() }}">
+                @include('front.partials.svg.logo-svg')
+            </a>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+        <div class="header-wrapper">
+            <a class="mobile-logo" href="{{ getHomeUrl() }}">
+                @include('front.partials.svg.logo-svg')
+            </a>
+            <nav>
+                @include('front.partials.menu')
+            </nav>
+            <a class="cart" href="#">Cart</a>
+        </div>
+        <div class="overlay"></div>
+    </div>
 </header>
