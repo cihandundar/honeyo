@@ -591,3 +591,153 @@ header {
 }
 
 /* WHY US END */
+
+/* SERVICES START */
+
+.services .top-title,
+.services .bottom-title {
+    font-size: 62px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: var(--dark);
+}
+
+.services .desc {
+    margin: 30px 0;
+    font-size: 20px;
+}
+
+.services .button {
+    display: inline-block;
+    padding: 15px 60px;
+    background-color: var(--primary);
+    color: white;
+    font-weight: 600;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 992px) {
+    .services-left {
+        margin-bottom: 30px;
+    }
+}
+
+.services-box {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    padding: 30px 15px;
+    transition: all 0.3s ease;
+}
+
+.services-box-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.services-box-top-left {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+@media (max-width: 768px) {
+    .services-box-top-left {
+        gap: 15px;
+    }
+}
+
+.services-box-top-left .step {
+    font-size: 22px;
+    color: var(--secondary);
+    font-weight: 600;
+}
+
+.services-box-top-left .title {
+    font-size: 40px;
+    font-weight: 900;
+    color: var(--dark);
+}
+
+@media (max-width: 768px) {
+    .services-box-top-left .title {
+        font-size: 27px;
+    }
+}
+
+.services-box-top i {
+    font-size: 32px;
+    color: var(--primary);
+}
+
+.services-box-bottom {
+    max-height: 0;
+    overflow: hidden;
+    padding-top: 0;
+    transition: all 0.7s ease;
+}
+
+.services-box.active .services-box-bottom,
+.services-box:hover .services-box-bottom {
+    max-height: 500px;
+    padding-top: 15px;
+}
+
+.services-box-bottom .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+@media (max-width: 768px) {
+    .services-box-bottom .wrapper {
+        flex-direction: column;
+    }
+}
+
+.services-box-bottom .wrapper img {
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.services-box-bottom .wrapper span {
+    color: var(--secondary);
+}
+
+.services-box.active {
+    background-color: var(--primary);
+    border-radius: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.services-box.active .services-box-top {
+    border-bottom: 1px solid white;
+}
+
+.services-box.active .step {
+    color: white;
+}
+
+.services-box.active .title {
+    color: white;
+    -webkit-text-stroke: 1px black;
+}
+
+.services-box.active .services-box-top i {
+    color: white;
+}
+
+.services-box.active .services-box-bottom {
+    display: block;
+}
+
+.services-box.active .services-box-bottom .wrapper span {
+    color: white;
+}
+
+/* SERVICES END */

@@ -42,6 +42,10 @@ return [
     'hero-sol-alt-cicek' => '/front/assets/images/sol-cicek.png',
     'anasayfa-neden-biz-baslik' => 'You can trust that the honey you purchase ıs pure, unadulterated, and of the fınest quality',
     'anasayfa-neden-biz-sol-ust-ari' => '/front/assets/images/neden-biz-ari.png',
+    'anasayfa-hizmetlerimiz-ust-baslik' => 'Our Popular',
+    'anasayfa-hizmetlerimiz-alt-baslik' => 'Servıces',
+    'anasayfa-hizmetlerimiz-aciklama' => 'Vestibulum nec sapien ante. Ut pharetra neque vitae orci hendrerit pharetra. In hac is habitasse platea dictumstsapien ante. Ut pharetra neque',
+
 ];
 
 ?>

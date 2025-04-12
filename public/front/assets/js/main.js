@@ -23,3 +23,23 @@ hamburger.addEventListener("click", () => {
         document.body.classList.remove("active-menu");
     });
 });
+
+// SERVICES BOX
+document.addEventListener('DOMContentLoaded', function() {
+    const servicesBoxes = document.querySelectorAll('.services-box');
+    
+    // İlk kutuyu aktif yap
+    if (servicesBoxes.length > 0) {
+        servicesBoxes[0].classList.add('active');
+    }
+
+    // Hover olaylarını dinle
+    servicesBoxes.forEach(box => {
+        box.addEventListener('mouseenter', function() {
+            // Tüm kutuları pasif yap
+            servicesBoxes.forEach(b => b.classList.remove('active'));
+            // Hover olan kutuyu aktif yap
+            this.classList.add('active');
+        });
+    });
+});
