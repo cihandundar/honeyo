@@ -594,6 +594,17 @@ header {
 
 /* SERVICES START */
 
+.services {
+    position: relative;
+}
+
+.services-dashed {
+    position: absolute;
+    left: 0;
+    bottom: -100px;
+    z-index: -1;
+}
+
 .services .top-title,
 .services .bottom-title {
     font-size: 62px;
@@ -738,6 +749,14 @@ header {
 
 .services-box.active .services-box-bottom .wrapper span {
     color: white;
+}
+
+.services .center-bee {
+    position: absolute;
+    left: 35%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    animation: float-up-down 2s ease-in-out infinite;
 }
 
 /* SERVICES END */

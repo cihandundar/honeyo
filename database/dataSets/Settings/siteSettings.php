@@ -45,7 +45,8 @@ return [
     'anasayfa-hizmetlerimiz-ust-baslik' => 'Our Popular',
     'anasayfa-hizmetlerimiz-alt-baslik' => 'Servıces',
     'anasayfa-hizmetlerimiz-aciklama' => 'Vestibulum nec sapien ante. Ut pharetra neque vitae orci hendrerit pharetra. In hac is habitasse platea dictumstsapien ante. Ut pharetra neque',
-
+    'anasayfa-hizmetlerimiz-sol-cizgi' => '/front/assets/images/sol-cizgi.png',
+    'anasayfa-hizmetlerimiz-orta-ari' => '/front/assets/images/orta-ari.png',
 ];
 
 ?>

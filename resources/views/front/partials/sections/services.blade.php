@@ -1,4 +1,5 @@
 <section class="services">
+    <img class="center-bee" src="{{ setting('anasayfa-hizmetlerimiz-orta-ari') }}" alt="">
     <div class="container">
         <div class="row">
             <div class="col-lg-5">
@@ -44,4 +45,5 @@
             </div>
         </div>
     </div>
+    <img class="services-dashed" src="{{ setting('anasayfa-hizmetlerimiz-sol-cizgi') }}" alt="">
 </section>
