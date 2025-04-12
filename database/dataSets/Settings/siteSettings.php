@@ -40,6 +40,8 @@ return [
     'hero-sag-alt-ari' => '/front/assets/images/sag-alt-ari.png',
     'hero-sag-alt-cicek' => '/front/assets/images/sag-cicek.png',
     'hero-sol-alt-cicek' => '/front/assets/images/sol-cicek.png',
+    'anasayfa-neden-biz-baslik' => 'You can trust that the honey you purchase ıs pure, unadulterated, and of the fınest quality',
+    'anasayfa-neden-biz-sol-ust-ari' => '/front/assets/images/neden-biz-ari.png',
 ];
 
 ?>
