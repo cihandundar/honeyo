@@ -50,6 +50,8 @@ return [
     'anasayfa-urunler-baslik' => 'Our Popular Products',
     'anasayfa-urunler-sol-ust-ari'=> '/front/assets/images/urunler-sol-ari.png',
     'anasayfa-urunler-sag-ari'=> '/front/assets/images/duz-ari.png',
+    'anasayfa-cesitler-baslik' => 'Types Of Honey',
+    'anasayfa-cesitler-sol-cizgi' => '/front/assets/images/cesitler-cizgi.png',
 ];
 
 ?>
