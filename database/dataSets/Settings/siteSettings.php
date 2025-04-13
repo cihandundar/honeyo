@@ -47,6 +47,9 @@ return [
     'anasayfa-hizmetlerimiz-aciklama' => 'Vestibulum nec sapien ante. Ut pharetra neque vitae orci hendrerit pharetra. In hac is habitasse platea dictumstsapien ante. Ut pharetra neque',
     'anasayfa-hizmetlerimiz-sol-cizgi' => '/front/assets/images/sol-cizgi.png',
     'anasayfa-hizmetlerimiz-orta-ari' => '/front/assets/images/orta-ari.png',
+    'anasayfa-urunler-baslik' => 'Our Popular Products',
+    'anasayfa-urunler-sol-ust-ari'=> '/front/assets/images/urunler-sol-ari.png',
+    'anasayfa-urunler-sag-ari'=> '/front/assets/images/duz-ari.png',
 ];
 
 ?>

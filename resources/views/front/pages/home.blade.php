@@ -11,4 +11,5 @@
     @include('front.partials.sections.hero')
     @include('front.partials.sections.why_us')
     @include('front.partials.sections.services')
+    @include('front.partials.sections.product')
 @endsection
