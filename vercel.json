@@ -2,7 +2,7 @@
     "builds": [
         {
             "src": "public/index.php",
-            "use": "@vercel/php"
+            "use": "@vercel/node"
         }
     ],
     "routes": [
@@ -10,6 +10,5 @@
             "src": "/(.*)",
             "dest": "/public/index.php"
         }
-    ],
-    "outputDirectory": "public"
+    ]
 }
